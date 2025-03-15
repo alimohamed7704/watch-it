@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #0f0a07;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignUp.SubscriptionStepController">
+    <top>
+        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="257.0" prefWidth="1920.0" spacing="15" style="-fx-background-color: #0f0a05; -fx-padding: 20; -fx-border-color: #26221d;" BorderPane.alignment="CENTER">
+         <Label prefHeight="48.0" prefWidth="129.0" style="-fx-text-fill: #bcb6b6;" text="step 2 of 3" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font>
+         </Label>
+            <Label prefHeight="120.0" prefWidth="566.0" style="-fx-text-fill: #FFFFFF; -fx-font-weight: bold;" text=" Pick your Favorite Plan" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="50.0" />
+            </font></Label>
+            <Label style="-fx-text-fill: #CCCCCC; -fx-font-size: 14;" text="Choose the package that suits you from the monthly subscriptions" wrapText="true" />
+        </VBox>
+    </top>
+
+    <center>
+        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="537.0" prefWidth="697.0" spacing="25.0" style="-fx-background-color: #0f0a05; -fx-padding: 30; -fx-border-radius: 16;">
+            <HBox alignment="CENTER" spacing="25" style="-fx-background-color: #0f0a05;" />
+         <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" spacing="50.0">
+            <children>
+               <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="988.0" spacing="15.0">
+                  <children>
+                     <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="114.0" prefWidth="857.0" scaleShape="false" spacing="30.0" style="-fx-background-color: #292826; -fx-background-radius: 50;" stylesheets="@/Styling/Values/sub.css">
+                        <children>
+                               <ToggleButton fx:id="basicButton" prefHeight="95.0" prefWidth="242.0" style="-fx-padding: 10; -fx-background-radius: 30;" styleClass="custom-toggle" text="Basic" textFill="WHITE">
+                              <font>
+                                 <Font name="System Bold" size="30.0" />
+                              </font>
+                           </ToggleButton>
+                               <ToggleButton fx:id="standardButton" prefHeight="90.0" prefWidth="261.0" style="-fx-padding: 10; -fx-background-radius: 30;" styleClass="custom-toggle" text="Standard" textFill="WHITE">
+                              <font>
+                                 <Font name="System Bold" size="30.0" />
+                              </font>
+                           </ToggleButton>
+                               <ToggleButton fx:id="premiumButton" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="88.0" prefWidth="250.0" style="-fx-padding: 10; -fx-background-radius: 30;" styleClass="custom-toggle" stylesheets="@/Styling/Values/sub.css" text="Premium" textFill="WHITE">
+                              <font>
+                                 <Font name="System Bold" size="30.0" />
+                              </font>
+                           </ToggleButton>
+                        </children>
+                     </HBox>
+                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="0.0" prefWidth="655.0" />
+                     <HBox alignment="CENTER" prefHeight="291.0" prefWidth="985.0" spacing="10.0">
+                        <children>
+                  
+                                          <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="271.0" prefWidth="290.0" spacing="15" style="-fx-border-color: #FFC107; -fx-padding: 20;">
+                                  <Label prefHeight="39.0" prefWidth="235.0" style="-fx-font-size: 27; -fx-text-fill: #FFFFFF; -fx-font-weight: bold;" text="5 Movies / Month" />
+                                  <Label prefHeight="47.0" prefWidth="125.0" style="-fx-font-size: 25; -fx-text-fill: #FFC107; -fx-font-weight: bold;" text="49.99 EGP">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                                  <Label style="-fx-text-fill: #CCCCCC; -fx-font-size: 11;" text="*You can watch through 3 screens only at the same time" wrapText="true">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </Label>
+                              </VBox>
+                           <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="271.0" prefWidth="294.0" spacing="15" style="-fx-border-color: #FFC107; -fx-padding: 20;">
+                              <children>
+                                 <Label style="-fx-font-size: 27; -fx-text-fill: #FFFFFF; -fx-font-weight: bold;" text="10 Movies / Month" />
+                                 <Label prefHeight="44.0" prefWidth="120.0" style="-fx-font-size: 25; -fx-text-fill: #FFC107; -fx-font-weight: bold;" text="74.99 EGP" />
+                                 <Label style="-fx-text-fill: #CCCCCC; -fx-font-size: 11;" text="*You can watch through 5 screens only at the same time" wrapText="true" />
+                              </children>
+                           </VBox>
+                           <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="270.0" prefWidth="291.0" spacing="15" style="-fx-border-color: #FFC107; -fx-padding: 20;">
+                              <children>
+                                 <Label style="-fx-font-size: 27; -fx-text-fill: #FFFFFF; -fx-font-weight: bold;" text="30 Movies / Month" />
+                                 <Label prefHeight="41.0" prefWidth="134.0" style="-fx-font-size: 25; -fx-text-fill: #FFC107; -fx-font-weight: bold;" text="149.99 EGP" />
+                                 <Label style="-fx-text-fill: #CCCCCC; -fx-font-size: 11;" text="*You can watch through 7 screens only at the same time" wrapText="true" />
+                              </children>
+                           </VBox>
+                        </children>
+                     </HBox>
+            
+                              <Button onAction="#onNextButtonClick" prefHeight="62.0" prefWidth="306.0" style="-fx-background-color: #FFC107; -fx-text-fill: #000000; -fx-font-size: 20; -fx-font-weight: bold; -fx-padding: 10; -fx-border-radius: 16; -fx-background-radius: 20;" text="Next" />
+                     <Button mnemonicParsing="false" onAction="#backButton" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: #9ba6a5; -fx-background-radius: 16;" text="Back">
+                        <font>
+                           <Font name="System Bold" size="14.0" />
+                        </font>
+                     </Button>
+                  </children>
+               </VBox>
+            </children>
+         </HBox>
+        </VBox>
+    </center>
+   <left>
+      <VBox alignment="CENTER" prefHeight="864.0" prefWidth="355.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="263.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/Styling/images/Watchit_logo.jpg" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="110.0" prefWidth="263.0" />
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="864.0" prefWidth="389.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="255.0" />
+         </children></VBox>
+   </right>
+</BorderPane>

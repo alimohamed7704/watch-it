@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="740.0" prefWidth="1242.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+        <VBox prefHeight="750.0" prefWidth="303.0" spacing="20.0" styleClass="primary-color" stylesheets="@/Styling/Values/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0" spacing="15.0">
+                    <VBox.margin>
+                        <Insets top="50.0" />
+                    </VBox.margin>
+                    <children>
+                        <ImageView fitHeight="140.0" fitWidth="189.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageView">
+                            <image>
+                                <Image url="@/Styling/images/watchitmena_logo.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label text="Bavly &amp; Peter" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </VBox>
+                <VBox prefHeight="306.0" prefWidth="300.0" spacing="15.0">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected-border" stylesheets="@/Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@/Styling/images/user.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="35.0" prefWidth="143.0" text="Profile" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@/Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@/Styling/images/subcriptions.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="35.0" prefWidth="143.0" text="Subscription" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@/Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@/Styling/images/history.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="35.0" prefWidth="143.0" text="History" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@/Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@/Styling/images/settings.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="35.0" prefWidth="143.0" text="Settings" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@/Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@/Styling/images/padlock.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="35.0" prefWidth="143.0" text="Privacy Policy" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="50.0" styleClass="secondary-color" stylesheets="@/Styling/Values/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="17.0" prefWidth="954.0" stylesheets="@/Styling/Values/style.css" text="Subscription Settings" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="27.0" />
+                    </font>
+                </Label>
+                <VBox prefHeight="216.0" prefWidth="830.0" spacing="30.0" stylesheets="@/Styling/Values/style.css">
+                    <children>
+                        <Label prefHeight="17.0" prefWidth="954.0" text="Subscription details" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0">
+                            <children>
+                                <Label prefHeight="27.0" prefWidth="174.0" text="Current Subscription" textFill="WHITE">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Pane prefHeight="28.0" prefWidth="159.0" />
+                                <TextField prefHeight="28.0" prefWidth="200.0" styleClass="TextField" />
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0">
+                            <children>
+                                <Label prefHeight="27.0" prefWidth="92.0" text="Username " textFill="WHITE">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Pane prefHeight="27.0" prefWidth="88.0" />
+                                <TextField prefHeight="26.0" prefWidth="203.0" styleClass="TextField" />
+                                <Label prefHeight="27.0" prefWidth="108.0" text="UserID#" textFill="WHITE">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="20.0" />
+                                    </padding>
+                                </Label>
+                                <TextField prefHeight="26.0" prefWidth="104.0" styleClass="TextField">
+                                    <padding>
+                                        <Insets left="20.0" />
+                                    </padding>
+                                </TextField>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0">
+                            <children>
+                                <Pane prefHeight="27.0" prefWidth="108.0" />
+                            </children>
+                        </HBox>
+                    </children>
+                    <styleClass>
+                        <String fx:value="primary-color" />
+                        <String fx:value="button-rounded" />
+                        <String fx:value="container-rounded" />
+                    </styleClass>
+                </VBox>
+                <VBox prefHeight="220.0" prefWidth="822.0" spacing="30.0" styleClass="container-rounded" stylesheets="@/Styling/Values/style.css">
+                    <children>
+                        <Label prefHeight="48.0" prefWidth="800.0" text="Contact info" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0">
+                            <children>
+                                <Label prefHeight="27.0" prefWidth="92.0" text="Email" textFill="WHITE">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Pane prefHeight="27.0" prefWidth="89.0" />
+                                <TextField prefHeight="26.0" prefWidth="268.0" styleClass="TextField" stylesheets="@/Styling/Values/style.css" />
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0">
+                            <children>
+                                <Label prefHeight="27.0" prefWidth="92.0" text="Password" textFill="WHITE">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Pane prefHeight="27.0" prefWidth="89.0" />
+                                <TextField prefHeight="26.0" prefWidth="267.0" styleClass="TextField" />
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0" />
+                    </children>
+                </VBox>
+                <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="155.0" styleClass="save-button" text="Save Changes" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Button>
+            </children>
+            <padding>
+                <Insets bottom="30.0" left="50.0" right="50.0" top="30.0" />
+            </padding>
+        </VBox>
+    </center>
+</BorderPane>
