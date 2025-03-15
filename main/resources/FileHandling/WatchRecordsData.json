@@ -1,0 +1,22 @@
+[
+    {
+        "userId": 1,
+		"dateOfWatchingString": "2024-12-01",
+        "rate": 1,
+        "ContentID": 1
+    },
+    {
+        "userId": 2,
+		"dateOfWatchingString": "2024-12-01",
+        "rate": 2,
+        "ContentID": 2
+    },
+	{
+        "userId": 3,
+		"dateOfWatchingString": "2024-12-01",
+        "rate": 3,
+        "ContentID": 3
+    }
+]
+
+

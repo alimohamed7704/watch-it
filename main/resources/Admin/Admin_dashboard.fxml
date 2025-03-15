@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1530.0" prefHeight="1080.0" prefWidth="1530.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Profiles.AdminDashboardController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1530.0" prefHeight="1080.0" prefWidth="1530.0" style="-fx-background-color: black;">
+         <children>
+            <ScrollPane hbarPolicy="NEVER" maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: black;" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.7999999999999545" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <content>
+                  <AnchorPane maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1530.0" prefHeight="1080.0" prefWidth="1530.0" style="-fx-background-color: #0E0A06;">
+                     <children>
+                        <HBox layoutX="499.8" layoutY="200.0" prefHeight="196.0" prefWidth="1321.0" spacing="50.0" AnchorPane.leftAnchor="499.8" AnchorPane.rightAnchor="99.40000000000009">
+                           <children>
+                              <VBox prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-border-color: #F2B802; -fx-border-radius: 5; -fx-border-width: 3;">
+                                 <children>
+                                    <Label alignment="TOP_CENTER" prefHeight="46.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-text-fill: white; -fx-border-radius: 10;" text="Total Revenue" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold" size="26.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="totalRevenue" alignment="CENTER" prefHeight="115.0" prefWidth="264.0" text="100000" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-border-color: #F2B802; -fx-border-radius: 5; -fx-border-width: 3;">
+                                 <children>
+                                    <Label alignment="TOP_CENTER" prefHeight="46.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-text-fill: white; -fx-border-radius: 10;" text="Top Revenue Month" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold" size="26.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="topRevenueMonth" alignment="CENTER" prefHeight="119.0" prefWidth="264.0" text="1000" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="331.0" layoutY="10.0" prefHeight="196.0" prefWidth="279.0" style="-fx-background-color: #17110D; -fx-border-color: #F2B802; -fx-border-radius: 5; -fx-border-width: 3;">
+                                 <children>
+                                    <Label alignment="TOP_CENTER" prefHeight="46.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-text-fill: white; -fx-border-radius: 10;" text="Most Subscribed plan" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold" size="26.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="mostSubscribedPlan" alignment="CENTER" prefHeight="120.0" prefWidth="278.0" text="Regular plan" textAlignment="CENTER" textFill="WHITE">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <VBox layoutX="54.0" layoutY="200.0" prefHeight="436.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #17110D; -fx-background-radius: 5; -fx-border-radius: 10; -fx-border-width: 3; -fx-border-color: #F2B802;" AnchorPane.leftAnchor="54.0">
+                           <children>
+                              <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Home" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#add" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Add Content" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="modifyContentButton" layoutX="10.0" layoutY="85.0" mnemonicParsing="false" onAction="#modify" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Modify Content" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <HBox layoutX="500.0" layoutY="445.0" prefHeight="199.0" prefWidth="927.0" spacing="50.0" AnchorPane.leftAnchor="500.0" AnchorPane.rightAnchor="103.0">
+                           <children>
+                              <HBox prefHeight="196.0" prefWidth="931.0" spacing="50.0">
+                                 <children>
+                                    <VBox prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-border-color: #F2B802; -fx-border-radius: 5; -fx-border-width: 3;">
+                                       <children>
+                                          <Label alignment="TOP_CENTER" prefHeight="46.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-text-fill: white; -fx-border-radius: 10;" text="Basic Plan" textAlignment="CENTER" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="26.0" />
+                                             </font>
+                                          </Label>
+                                          <HBox prefHeight="147.0" prefWidth="270.0">
+                                             <children>
+                                                <VBox prefHeight="147.0" prefWidth="143.0" spacing="20.0">
+                                                   <children>
+                                                      <Label prefHeight="30.0" prefWidth="130.0" text="Number Of Users :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label prefHeight="30.0" prefWidth="130.0" text="Price :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label prefHeight="42.0" prefWidth="126.0" text="Revneue :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="147.0" prefWidth="143.0" spacing="20.0">
+                                                   <children>
+                                                      <Label fx:id="basicPlanNumberOfUsers" prefHeight="30.0" prefWidth="130.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="basicPlanPrice" prefHeight="30.0" prefWidth="130.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="basicPlanRevenue" prefHeight="42.0" prefWidth="126.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                    <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-border-color: #F2B802; -fx-border-radius: 5; -fx-border-width: 3;">
+                                       <children>
+                                          <Label alignment="TOP_CENTER" prefHeight="46.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-text-fill: white; -fx-border-radius: 10;" text="Standard Plan" textAlignment="CENTER" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="26.0" />
+                                             </font>
+                                          </Label>
+                                          <HBox prefHeight="147.0" prefWidth="270.0">
+                                             <children>
+                                                <VBox prefHeight="147.0" prefWidth="143.0" spacing="20.0">
+                                                   <children>
+                                                      <Label prefHeight="30.0" prefWidth="130.0" text="Number Of Users :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label prefHeight="30.0" prefWidth="130.0" text="Price :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label prefHeight="42.0" prefWidth="126.0" text="Revneue :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="147.0" prefWidth="143.0" spacing="20.0">
+                                                   <children>
+                                                      <Label fx:id="standardPlanNumberOfUsers" prefHeight="30.0" prefWidth="130.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="standardPlanPrice" prefHeight="30.0" prefWidth="130.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="standardPlanRevenue" prefHeight="42.0" prefWidth="126.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                    <VBox layoutX="331.0" layoutY="10.0" prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-border-color: #F2B802; -fx-border-radius: 5; -fx-border-width: 3;">
+                                       <children>
+                                          <Label alignment="TOP_CENTER" prefHeight="46.0" prefWidth="270.0" style="-fx-background-color: #17110D; -fx-text-fill: white; -fx-border-radius: 10;" text="Premium Plan" textAlignment="CENTER" wrapText="true">
+                                             <font>
+                                                <Font name="System Bold" size="26.0" />
+                                             </font>
+                                          </Label>
+                                          <HBox prefHeight="147.0" prefWidth="270.0">
+                                             <children>
+                                                <VBox prefHeight="147.0" prefWidth="143.0" spacing="20.0">
+                                                   <children>
+                                                      <Label alignment="CENTER" prefHeight="30.0" prefWidth="130.0" text="Number Of Users :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label prefHeight="30.0" prefWidth="130.0" text="Price :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label prefHeight="42.0" prefWidth="126.0" text="Revneue :" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                                <VBox layoutX="10.0" layoutY="10.0" prefHeight="147.0" prefWidth="143.0" spacing="20.0">
+                                                   <children>
+                                                      <Label fx:id="premiumPlanNumberOfUsers" prefHeight="30.0" prefWidth="130.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="premiumPlanPrice" prefHeight="30.0" prefWidth="130.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="premiumPlanRevenue" prefHeight="42.0" prefWidth="126.0" textFill="WHITE">
+                                                         <font>
+                                                            <Font name="System Bold" size="15.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <Button layoutX="1400.0" layoutY="16.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Home" textFill="#cfcbcb">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="1191.0" layoutY="21.0" text="Admin Dashboard" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <AnchorPane layoutX="-51.0" layoutY="3.0" maxHeight="1080.0" maxWidth="1920.0" minHeight="1080.0" minWidth="1920.0" opacity="0.43" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="1412.6" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="2.80000000000004" />
+            <Button layoutY="5.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="272.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Styling/images/Watch%20It%20Logo.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1150.0" layoutY="30.0" mnemonicParsing="false" style="-fx-background-color: transparent;" />
+   </children>
+</AnchorPane>

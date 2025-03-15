@@ -1,0 +1,63 @@
+[ {
+  "type" : "movie",
+  "title" : "The Great Adventure",
+  "language" : "English",
+  "country" : "USA",
+  "releaseDateString" : "2023-01-30",
+  "genres" : [ "Action", "Adventure" ],
+  "id" : 1,
+  "budget" : 50000000,
+  "revenue" : 120000000,
+  "rating" : 8.5,
+  "duration" : 135.5,
+  "posterPath" : null,
+  "viewHistory" : {
+    "2024-12-01" : 10,
+    "2024-12-05" : 5,
+    "2024-12-10" : 15,
+    "2024-12-12" : 8,
+    "2024-12-14" : 3
+  },
+  "castList" : [ 101, 102 ]
+}, {
+  "type" : "movie",
+  "title" : "Mystery in the Dark",
+  "language" : "English",
+  "country" : "UK",
+  "releaseDateString" : "2022-11-30",
+  "genres" : [ "Mystery", "Thriller" ],
+  "id" : 2,
+  "budget" : 30000000,
+  "revenue" : 50000000,
+  "rating" : 7.2,
+  "duration" : 120.0,
+  "posterPath" : null,
+  "viewHistory" : {
+    "2024-12-01" : 7,
+    "2024-12-04" : 4,
+    "2024-12-07" : 6,
+    "2024-12-10" : 12
+  },
+  "castList" : [ 102 ]
+}, {
+  "type" : "show",
+  "title" : "The Last Season",
+  "language" : "English",
+  "country" : "USA",
+  "releaseDateString" : "2021-11-30",
+  "genres" : [ "Drama", "Thriller" ],
+  "id" : 3,
+  "budget" : 100000000,
+  "revenue" : 200000000,
+  "rating" : 9.1,
+  "duration" : 45.0,
+  "posterPath" : null,
+  "viewHistory" : {
+    "2024-12-01" : 20,
+    "2024-12-03" : 15,
+    "2024-12-08" : 25,
+    "2024-12-12" : 10
+  },
+  "numberOfEpisodes" : 10,
+  "castList" : [ 101, 103 ]
+} ]

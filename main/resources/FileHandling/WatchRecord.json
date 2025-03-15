@@ -1,0 +1,51 @@
+[ {
+  "userId" : 2,
+  "dateOfWatchingString" : "2025-02-03",
+  "rate" : 0,
+  "contentID" : 2
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "2025-02-03",
+  "rate" : 0,
+  "contentID" : 3
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "1800-01-01",
+  "rate" : 5,
+  "contentID" : 33
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "1800-01-01",
+  "rate" : 5,
+  "contentID" : 27
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "1800-01-01",
+  "rate" : 5,
+  "contentID" : 18
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "2025-02-04",
+  "rate" : 5,
+  "contentID" : 9
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "2025-02-04",
+  "rate" : 0,
+  "contentID" : 25
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "2025-02-23",
+  "rate" : 0,
+  "contentID" : 5
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "2025-02-23",
+  "rate" : 0,
+  "contentID" : 28
+}, {
+  "userId" : 2,
+  "dateOfWatchingString" : "1800-01-01",
+  "rate" : 5,
+  "contentID" : 21
+} ]

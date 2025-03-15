@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2000.0" prefWidth="1530.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Content.UnlistedMoviesController">
+    <children>
+        <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <AnchorPane layoutX="20.0" layoutY="250.0" prefHeight="2000.0" prefWidth="1530.0" style="-fx-background-color: #14110d;">
+               <children>
+                  <AnchorPane layoutX="20.0" layoutY="250.0" prefHeight="205.0" prefWidth="1530.0" style="-fx-background-color: transparent;">
+                     <children>
+                        <Label layoutX="35.0" prefHeight="30.0" prefWidth="211.0" text="Comedy" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="47.0" fitWidth="22.0" layoutX="13.0" layoutY="100.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="10.0" layoutY="98.0" mnemonicParsing="false" onAction="#scrollLeftComedy" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Left" />
+                        <ScrollPane fx:id="comedyScrollBar" hbarPolicy="NEVER" layoutX="42.0" layoutY="50.0" prefHeight="152.0" prefWidth="1431.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="151.0" prefWidth="2800.0" style="-fx-background-color: #14110d;">
+                                 <children>
+                                    <HBox fx:id="comedyBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="12.0" prefHeight="101.0" prefWidth="1400.0" spacing="15.0" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                        <ImageView fitHeight="47.0" fitWidth="19.0" layoutX="1480.0" layoutY="106.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="1472.0" layoutY="101.0" mnemonicParsing="false" onAction="#scrollRightComedy" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Right" />
+                        <Line endX="661.7999267578125" endY="3.0517578125E-5" fill="#f2b802" layoutX="789.0" layoutY="50.0" opacity="0.9" startX="-753.4000244140625" startY="3.0517578125E-5" stroke="#f2b802" strokeLineCap="ROUND" strokeWidth="2.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="20.0" layoutY="500.0" prefHeight="205.0" prefWidth="1530.0" style="-fx-background-color: transparent;">
+                     <children>
+                        <Label layoutX="35.0" prefHeight="30.0" prefWidth="211.0" text="Action" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="47.0" fitWidth="22.0" layoutX="13.0" layoutY="100.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="10.0" layoutY="98.0" mnemonicParsing="false" onAction="#scrollLeftAction" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Left" />
+                        <ScrollPane fx:id="actionScrollBar" hbarPolicy="NEVER" layoutX="42.0" layoutY="50.0" prefHeight="152.0" prefWidth="1431.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="151.0" prefWidth="2800.0" style="-fx-background-color: #14110d;">
+                                 <children>
+                                    <HBox fx:id="actionBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="12.0" prefHeight="101.0" prefWidth="1400.0" spacing="15.0" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                        <ImageView fitHeight="47.0" fitWidth="19.0" layoutX="1480.0" layoutY="106.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="1472.0" layoutY="101.0" mnemonicParsing="false" onAction="#scrollRightAction" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Right" />
+                        <Line endX="661.7999267578125" endY="3.0517578125E-5" fill="#f2b802" layoutX="789.0" layoutY="50.0" opacity="0.9" startX="-753.4000244140625" startY="3.0517578125E-5" stroke="#f2b802" strokeLineCap="ROUND" strokeWidth="2.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="20.0" layoutY="754.0" prefHeight="205.0" prefWidth="1530.0" style="-fx-background-color: transparent;">
+                     <children>
+                        <Label layoutX="35.0" prefHeight="30.0" prefWidth="211.0" text="Drama" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="47.0" fitWidth="22.0" layoutX="13.0" layoutY="100.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="10.0" layoutY="98.0" mnemonicParsing="false" onAction="#scrollLeftDrama" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Left" />
+                        <ScrollPane fx:id="dramaScrollBar" hbarPolicy="NEVER" layoutX="42.0" layoutY="50.0" prefHeight="152.0" prefWidth="1431.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="151.0" prefWidth="2800.0" style="-fx-background-color: #14110d;">
+                                 <children>
+                                    <HBox fx:id="dramaBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="12.0" prefHeight="101.0" prefWidth="1400.0" spacing="15.0" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                        <ImageView fitHeight="47.0" fitWidth="19.0" layoutX="1480.0" layoutY="106.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="1472.0" layoutY="101.0" mnemonicParsing="false" onAction="#scrollRightDrama" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Right" />
+                        <Line endX="661.7999267578125" endY="3.0517578125E-5" fill="#f2b802" layoutX="789.0" layoutY="50.0" opacity="0.9" startX="-753.4000244140625" startY="3.0517578125E-5" stroke="#f2b802" strokeLineCap="ROUND" strokeWidth="2.0" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="20.0" layoutY="1002.0" prefHeight="205.0" prefWidth="1530.0" style="-fx-background-color: transparent;">
+                     <children>
+                        <Label layoutX="35.0" prefHeight="30.0" prefWidth="211.0" text="Romantic" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="30.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="47.0" fitWidth="22.0" layoutX="13.0" layoutY="100.0" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="10.0" layoutY="98.0" mnemonicParsing="false" onAction="#scrollLeftRomantic" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Left" />
+                        <ScrollPane fx:id="romanticScrollBar" hbarPolicy="NEVER" layoutX="42.0" layoutY="50.0" prefHeight="152.0" prefWidth="1431.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="151.0" prefWidth="2800.0" style="-fx-background-color: #14110d;">
+                                 <children>
+                                    <HBox fx:id="romanticBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="12.0" prefHeight="101.0" prefWidth="1400.0" spacing="15.0" />
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </ScrollPane>
+                        <ImageView fitHeight="47.0" fitWidth="19.0" layoutX="1480.0" layoutY="106.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.52" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/next-arrow.png" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="1472.0" layoutY="101.0" mnemonicParsing="false" onAction="#scrollRightRomantic" opacity="0.0" prefHeight="41.0" prefWidth="31.0" text="Right" />
+                        <Line endX="661.7999267578125" endY="3.0517578125E-5" fill="#f2b802" layoutX="789.0" layoutY="50.0" opacity="0.9" startX="-753.4000244140625" startY="3.0517578125E-5" stroke="#f2b802" strokeLineCap="ROUND" strokeWidth="2.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <AnchorPane layoutX="-51.0" layoutY="3.0" opacity="0.33" prefHeight="114.0" prefWidth="1530.0" style="-fx-background-color: #000000;" AnchorPane.rightAnchor="15.0" />
+        <Button layoutX="1400.0" mnemonicParsing="false" style="-fx-background-color: transparent;" />
+        <Button layoutY="5.0" mnemonicParsing="false" onAction="#back" prefHeight="100.0" prefWidth="272.0" style="-fx-background-color: transparent;">
+            <graphic>
+                <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Styling/images/Watch%20It%20Logo.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+      <Button layoutX="1380.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Add Content" textFill="#cfcbcb">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="1170.0" layoutY="50.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+         <graphic>
+            <Label text="Admin Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </graphic>
+      </Button>
+    </children>
+</AnchorPane>

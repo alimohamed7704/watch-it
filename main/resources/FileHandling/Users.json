@@ -1,0 +1,86 @@
+[ {
+  "email" : "john.dooor@example.com",
+  "username" : "johndoe",
+  "balance" : 4894.0,
+  "id" : 1,
+  "password" : "fksod",
+  "firstName" : "johndoe",
+  "lastName" : "Ljohndoe",
+  "watchLaterContentIds" : [ 1, 2, 3 ],
+  "numberOfWatchedMovies" : 10,
+  "type" : "User"
+}, {
+  "email" : "Elyouss@example.com",
+  "username" : "elpodfspo",
+  "balance" : 115544.0,
+  "id" : 2,
+  "password" : "fksod",
+  "firstName" : "johndoe",
+  "lastName" : "Ljohndoe",
+  "watchLaterContentIds" : [ 1, 2, 3, 5 ],
+  "numberOfWatchedMovies" : 6,
+  "type" : "User"
+}, {
+  "email" : "john.do4oor@example.com",
+  "username" : "johndoe",
+  "id" : 3,
+  "password" : "fksod",
+  "firstName" : "johndoe",
+  "lastName" : "Ljohndoe",
+  "type" : "Admin"
+}, {
+  "email" : "PeterRef3at@boom.com",
+  "username" : "cpcawy",
+  "balance" : 0.0,
+  "id" : 4,
+  "password" : "fksod",
+  "firstName" : "peter",
+  "lastName" : "ref",
+  "watchLaterContentIds" : [ 1, 2, 3 ],
+  "numberOfWatchedMovies" : 0,
+  "type" : "User"
+}, {
+  "email" : "dsk@gmail.com",
+  "username" : "HOssam",
+  "balance" : 850.0,
+  "id" : 4,
+  "password" : "544658687$d",
+  "firstName" : "Dr",
+  "lastName" : "Hossam",
+  "watchLaterContentIds" : [ ],
+  "numberOfWatchedMovies" : 0,
+  "type" : "User"
+}, {
+  "email" : "ayman@ayman.ayman",
+  "username" : "ayman",
+  "balance" : 1.0,
+  "id" : 5,
+  "password" : "ayman10MQ#",
+  "firstName" : "ayman",
+  "lastName" : "refat",
+  "watchLaterContentIds" : [ ],
+  "numberOfWatchedMovies" : 0,
+  "type" : "User"
+}, {
+  "email" : "a@a.com",
+  "username" : "a",
+  "balance" : 100.0,
+  "id" : 7,
+  "password" : "ayman10M#",
+  "firstName" : "a",
+  "lastName" : "a",
+  "watchLaterContentIds" : [ ],
+  "numberOfWatchedMovies" : 0,
+  "type" : "User"
+}, {
+  "email" : "",
+  "username" : "a",
+  "balance" : 850.0,
+  "id" : 8,
+  "password" : "Ayman123@",
+  "firstName" : "a",
+  "lastName" : "a",
+  "watchLaterContentIds" : [ ],
+  "numberOfWatchedMovies" : 0,
+  "type" : "User"
+} ]

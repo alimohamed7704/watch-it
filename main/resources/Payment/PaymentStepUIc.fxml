@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #0f0a07;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Payment.PaymentStepcController">
+    <top>
+        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="257.0" prefWidth="1920.0" spacing="15" style="-fx-background-color: #0f0a05; -fx-padding: 20; -fx-border-color: #26221d;" BorderPane.alignment="CENTER">
+            <Label prefHeight="48.0" prefWidth="129.0" style="-fx-text-fill: #bcb6b6;" text="step 3 of 3" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="24.0" />
+                </font>
+            </Label>
+            <Label prefHeight="120.0" prefWidth="566.0" style="-fx-text-fill: #FFFFFF; -fx-font-weight: bold;" text="Select payment method" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="50.0" />
+                </font></Label>
+            <Label style="-fx-text-fill: #CCCCCC; -fx-font-size: 14;" text="Choose your preferred secure payment methods." wrapText="true" />
+        </VBox>
+    </top>
+
+    <center>
+        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="537.0" prefWidth="697.0" spacing="25.0" style="-fx-background-color: #0f0a05; -fx-padding: 30; -fx-border-radius: 16;">
+            <HBox alignment="CENTER" spacing="25" style="-fx-background-color: #0f0a05;" />
+            <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" spacing="50.0">
+                <children>
+                    <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="762.0" prefWidth="988.0" spacing="15.0">
+                        <children>
+                            <VBox alignment="CENTER" prefHeight="309.0" prefWidth="988.0" spacing="15.0">
+                                <children>
+                                    <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="110.0" prefWidth="489.0" style="-fx-background-color: #1c1713; -fx-background-radius: 16;">
+                                        <children>
+                                            <RadioButton fx:id="creditCard" mnemonicParsing="false" onAction="#CreditCardDetails" prefHeight="89.0" prefWidth="329.0" style="-fx-background-color: #1c1713; -fx-background-radius: 16;" text="Credit Card" textFill="WHITE">
+                                                <padding>
+                                                    <Insets left="20.0" />
+                                                </padding>
+                                                <font>
+                                                    <Font size="20.0" />
+                                                </font>
+                                            </RadioButton>
+                                            <ImageView fitHeight="120.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+                                                <image>
+                                                    <Image url="@/Styling/images/visa.png" />
+                                                </image>
+                                            </ImageView>
+                                        </children>
+                                    </HBox>
+                                    <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="96.0" prefWidth="489.0" style="-fx-background-color: #1c1713; -fx-background-radius: 16;">
+                                        <children>
+                                            <RadioButton fx:id="cash" mnemonicParsing="false" prefHeight="89.0" prefWidth="329.0" selected="true" style="-fx-background-color: #1c1713; -fx-background-radius: 16;" text="Cash" textFill="WHITE">
+                                                <padding>
+                                                    <Insets left="20.0" />
+                                                </padding>
+                                                <font>
+                                                    <Font size="20.0" />
+                                                </font>
+                                            </RadioButton>
+                                            <ImageView fitHeight="120.0" fitWidth="147.0" pickOnBounds="true" preserveRatio="true">
+                                                <image>
+                                                    <Image url="@/Styling/images/fawry.png" />
+                                                </image>
+                                            </ImageView>
+                                        </children>
+                                    </HBox>
+                                    <VBox prefHeight="73.0" prefWidth="988.0">
+                                        <children>
+                                            <HBox alignment="CENTER" prefHeight="71.0" prefWidth="988.0" spacing="10.0">
+                                                <children>
+                                       <Label prefHeight="30.0" prefWidth="123.0" text="Fawry Wallet" textFill="WHITE">
+                                          <font>
+                                             <Font name="System Bold" size="20.0" />
+                                          </font>
+                                       </Label>
+                                                    <TextField fx:id="wallet" prefHeight="56.0" prefWidth="341.0" promptText="Enter Wallet ID" style="-fx-background-color: #1c1713; -fx-background-radius: 16;">
+                                                        <font>
+                                                            <Font size="20.0" />
+                                                        </font>
+                                                    </TextField>
+                                                </children>
+                                            </HBox>
+                                        </children>
+                                    </VBox>
+                                </children>
+                            </VBox>
+                            <HBox alignment="CENTER" prefHeight="61.0" prefWidth="988.0">
+                                <children>
+                                    <Label prefHeight="30.0" prefWidth="83.0" text="Balance" textFill="WHITE">
+                                        <font>
+                                            <Font name="System Bold" size="20.0" />
+                                        </font>
+                                    </Label>
+                                    <HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="56.0" prefWidth="284.0" style="-fx-background-color: #1c1713; -fx-background-radius: 16;">
+                                        <children>
+                                            <TextField fx:id="balance" prefHeight="56.0" prefWidth="235.0" promptText="Enter Balance Amount" style="-fx-background-color: #1c1713; -fx-background-radius: 16;">
+                                                <font>
+                                                    <Font size="20.0" />
+                                                </font>
+                                            </TextField>
+                                            <Label prefHeight="56.0" prefWidth="64.0" text="L.E" textFill="WHITE">
+                                                <font>
+                                                    <Font name="System Bold" size="20.0" />
+                                                </font>
+                                            </Label>
+                                        </children>
+                                    </HBox>
+                                </children>
+                            </HBox>
+                            <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="0.0" prefWidth="655.0" />
+
+                            <Button onAction="#NextButton" prefHeight="62.0" prefWidth="306.0" style="-fx-background-color: #FFC107; -fx-text-fill: #000000; -fx-font-size: 20; -fx-font-weight: bold; -fx-padding: 10; -fx-border-radius: 16; -fx-background-radius: 20;" text="Next" />
+                            <Button mnemonicParsing="false" onAction="#backButton" prefHeight="35.0" prefWidth="72.0" style="-fx-background-color: #9ba6a5; -fx-background-radius: 16;" text="Back">
+                                <font>
+                                    <Font name="System Bold" size="14.0" />
+                                </font>
+                            </Button>
+                        </children>
+                    </VBox>
+                </children>
+            </HBox>
+        </VBox>
+    </center>
+    <left>
+        <VBox alignment="CENTER" prefHeight="864.0" prefWidth="355.0" BorderPane.alignment="CENTER">
+            <children>
+                <ImageView fitHeight="263.0" fitWidth="301.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@/Styling/images/Watchit_logo.jpg" />
+                    </image>
+                </ImageView>
+                <VBox prefHeight="110.0" prefWidth="263.0" />
+            </children>
+        </VBox>
+    </left>
+    <right>
+        <VBox prefHeight="864.0" prefWidth="389.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="200.0" prefWidth="255.0" />
+            </children></VBox>
+    </right>
+</BorderPane>

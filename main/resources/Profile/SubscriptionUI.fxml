@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../Styling/Values/style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Profiles.ProfileControllers.SubscriptionTapController">
+    <left>
+        <VBox prefHeight="750.0" prefWidth="303.0" spacing="20.0" styleClass="primary-color" stylesheets="@../Styling/Values/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="215.0" prefWidth="307.0">
+                    <children>
+                        <HBox>
+                            <VBox.margin>
+                                <Insets left="20.0" top="20.0" />
+                            </VBox.margin>
+                            <children>
+                                <ImageView fitHeight="65.0" fitWidth="66.0" onMouseClicked="#BackButton" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/left.png" />
+                                    </image>
+
+                                </ImageView>
+                                <Label onMouseClicked="#BackButton" prefHeight="63.0" prefWidth="127.0" text="Home" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="33.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="16.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children></VBox>
+                <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0" spacing="15.0">
+                    <VBox.margin>
+                        <Insets top="50.0" />
+                    </VBox.margin>
+                    <children>
+                        <ImageView fitHeight="307.0" fitWidth="326.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageView">
+                            <image>
+                                <Image url="@../Styling/images/Watchit_logo.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+                <VBox prefHeight="306.0" prefWidth="300.0" spacing="15.0">
+                    <children>
+                        <HBox alignment="CENTER" onMouseClicked="#ProfileButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" onMouseClicked="#ProfileButton" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/user.png" />
+                                    </image>
+                                </ImageView>
+                                <Label onMouseClicked="#ProfileButton" prefHeight="45.0" prefWidth="172.0" text="Profile" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected-border" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/subcriptions.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="36.0" prefWidth="180.0" text="Subscription" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" onMouseClicked="#PrivacyPolicyButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/padlock.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="36.0" prefWidth="179.0" text="Privacy Policy" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="12.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                  <HBox alignment="CENTER" onMouseClicked="#PrivacyPolicyButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/chat.png" />
+                           </image>
+                        </ImageView>
+                        <Label onMouseClicked="#ContactUsButton" prefHeight="36.0" prefWidth="179.0" text="Contact Us" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                           <padding>
+                              <Insets left="12.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="50.0" style="-fx-background-color: #0f0a06;" stylesheets="@../Styling/Values/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="141.0" prefWidth="1424.0" text="Subscription Settings" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="50.0" />
+                    </font>
+                </Label>
+                <HBox>
+                    <children>
+                        <VBox prefHeight="216.0" prefWidth="36.0" />
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="283.0" prefWidth="1219.0" spacing="30.0" style="-fx-background-color: #211c19;" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <Label prefHeight="17.0" prefWidth="954.0" text="Subscription details" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="28.0" />
+                                    </font>
+                                </Label>
+                                <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0" style="-fx-background-radius: 16;">
+                                    <children>
+                                        <Label prefHeight="35.0" prefWidth="205.0" text="Subscription type" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="24.0" />
+                                            </font>
+                                        </Label>
+                                        <Pane prefHeight="30.0" prefWidth="14.0" />
+                                        <TextField fx:id="subType" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="44.0" prefWidth="232.0" style="-fx-border-color: transparent;" styleClass="TextField">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font></TextField>
+                                        <Label prefHeight="35.0" prefWidth="54.0" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="24.0" />
+                                            </font>
+                                            <padding>
+                                                <Insets left="20.0" />
+                                            </padding>
+                                        </Label>
+                              <Label prefHeight="35.0" prefWidth="69.0" text="Price" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <HBox prefHeight="44.0" prefWidth="142.0" style="-fx-background-color: #0a0909;">
+                                 <children>
+                                    <TextField fx:id="price" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="44.0" prefWidth="95.0" style="-fx-border-color: transparent; -fx-background-radius: 16;" styleClass="TextField">
+                                       <font>
+                                          <Font size="24.0" />
+                                       </font>
+                                    </TextField>
+                                    <Label prefHeight="44.0" prefWidth="48.0" text="EGP" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="24.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" prefHeight="33.0" prefWidth="820.0">
+                                    <children>
+                              <Label prefHeight="35.0" prefWidth="124.0" text="Start Date" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="startDate" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="47.0" prefWidth="159.0" style="-fx-border-color: transparent;" styleClass="TextField">
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </TextField>
+                              <Label contentDisplay="RIGHT" prefHeight="35.0" prefWidth="126.0" text="End Date" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                              </Label>
+                              <TextField fx:id="endDate" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="159.0" style="-fx-border-color: transparent;" styleClass="TextField">
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </TextField>
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER_LEFT" prefHeight="51.0" prefWidth="1199.0">
+                           <children>
+                              <Label prefHeight="35.0" prefWidth="231.0" text="NO. of Movies Left :" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="moviesLeft" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="47.0" prefWidth="112.0" style="-fx-border-color: transparent;" styleClass="TextField">
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </TextField>
+                              <Label prefHeight="35.0" prefWidth="255.0" text="Max No. of Movies :" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                              </Label>
+                              <TextField fx:id="maxMovies" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="47.0" prefWidth="118.0" style="-fx-border-color: transparent;" styleClass="TextField">
+                                 <padding>
+                                    <Insets left="20.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="System Bold" size="24.0" />
+                                 </font>
+                              </TextField>
+                              <Label alignment="BOTTOM_LEFT" contentDisplay="BOTTOM" prefHeight="33.0" prefWidth="206.0" text="  Changes from one plan to another" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                                </HBox>
+                            </children>
+                            <styleClass>
+                                <String fx:value="button-rounded" />
+                                <String fx:value="container-rounded" />
+                            </styleClass>
+                        </VBox>
+                    </children>
+                </HBox>
+                <HBox>
+                    <children>
+                        <VBox prefHeight="220.0" prefWidth="473.0" />
+                        <VBox prefHeight="220.0" prefWidth="264.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#UpgradePlanButton" prefHeight="64.0" prefWidth="269.0" style="-fx-background-color: #dba423;" text="Upgrade Plan">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Button>
+                     </children></VBox>
+                    </children>
+                </HBox>
+                <VBox prefHeight="162.0" prefWidth="1513.0" />
+            </children>
+            <padding>
+                <Insets bottom="30.0" left="50.0" right="50.0" top="30.0" />
+            </padding>
+        </VBox>
+    </center>
+</BorderPane>

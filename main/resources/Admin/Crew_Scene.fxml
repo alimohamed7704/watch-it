@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1530.0" prefWidth="1530.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CrewController">
+    <children>
+        <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.7999999999999545" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <content>
+                <AnchorPane prefHeight="1530.0" prefWidth="1530.0" style="-fx-background-color: #14110d;">
+                    <children>
+                        <Label fx:id="crewName" alignment="BOTTOM_LEFT" blendMode="LIGHTEN" graphicTextGap="2.0" layoutX="33.0" layoutY="150.0" prefHeight="237.0" prefWidth="562.0" style="-fx-text-fill: white;" text="Noor&#10;El Nabawy" textFill="WHITE" wrapText="true">
+                            <font>
+                                <Font name="System Bold" size="80.0" />
+                            </font>
+                        </Label>
+                        <TilePane fx:id="tilePane" hgap="30.0" layoutX="68.0" layoutY="688.0" prefColumns="5" prefTileHeight="150.0" prefTileWidth="250.0" vgap="30.0">
+                            <children>
+                                <AnchorPane prefHeight="150.0" prefWidth="250.0">
+                                    <children>
+                                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../../../../../../../Downloads/embratoret%20mem.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="34.0" layoutY="135.0" prefHeight="22.0" prefWidth="182.0" text="Embratoryet Mem" textFill="WHITE" wrapText="true">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="150.0" prefWidth="250.0">
+                                    <children>
+                                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../../../../../../../Downloads/6%20shhoor.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="34.0" layoutY="132.0" prefHeight="35.0" prefWidth="182.0" text="6 Shohoor" textFill="WHITE" wrapText="true">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="150.0" prefWidth="250.0">
+                                    <children>
+                                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../../resources/com/example/demo/embratoret%20mem.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="9.0" layoutY="81.0" prefHeight="61.0" prefWidth="182.0" text="Karmouz War" textFill="WHITE" wrapText="true">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="150.0" prefWidth="250.0">
+                                    <children>
+                                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../../resources/com/example/demo/embratoret%20mem.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="9.0" layoutY="81.0" prefHeight="61.0" prefWidth="182.0" text="Karmouz War" textFill="WHITE" wrapText="true">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="150.0" prefWidth="250.0">
+                                    <children>
+                                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../../resources/com/example/demo/embratoret%20mem.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="9.0" layoutY="81.0" prefHeight="61.0" prefWidth="182.0" text="Karmouz War" textFill="WHITE" wrapText="true">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="150.0" prefWidth="250.0">
+                                    <children>
+                                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../../../../../../../Downloads/6%20shhoor.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="9.0" layoutY="81.0" prefHeight="61.0" prefWidth="182.0" text="Karmouz War" textFill="WHITE" wrapText="true">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane prefHeight="150.0" prefWidth="250.0">
+                                    <children>
+                                        <ImageView fitHeight="150.0" fitWidth="250.0" pickOnBounds="true">
+                                            <image>
+                                                <Image url="@../../../../../../../../../Downloads/embratoret%20mem.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Label alignment="BOTTOM_LEFT" layoutX="9.0" layoutY="81.0" prefHeight="61.0" prefWidth="182.0" text="Karmouz War" textFill="WHITE" wrapText="true">
+                                            <font>
+                                                <Font name="System Bold" size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </TilePane>
+                        <Line endX="1319.7999267578125" layoutX="145.0" layoutY="632.0" startX="-100.0" stroke="#f2b802" strokeLineCap="ROUND" strokeWidth="2.0" />
+                        <ImageView fx:id="crewImageView" fitHeight="353.0" fitWidth="315.0" layoutX="1135.0" layoutY="138.0" pickOnBounds="true">
+                            <image>
+                                <Image url="@../../../../resources/com/example/demo/Noor%20El%20Nabawy%20Profile%20Picture.jpg" />
+                            </image>
+                            <effect>
+                                <InnerShadow height="39.72" radius="30.4725" width="84.17" />
+                            </effect>
+                        </ImageView>
+                  <Label layoutX="16.0" layoutY="440.0" prefHeight="176.0" prefWidth="1011.0" text="A young Egyptian actor who studied acting and theater at Santa Monica College and California State University, Northridge, in the US. He started acting in different plays during his studies at college. Upon his return to Egypt, he joined different acting workshops until he was selected to join t" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="1168.0" layoutY="557.0" prefHeight="66.0" prefWidth="312.0" spacing="10.0">
+                     <children>
+                        <Button mnemonicParsing="false" style="-fx-background-color: transparent;">
+                           <graphic>
+                              <ImageView fitHeight="58.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../resources/com/example/demo/Facbook%20Logo.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                           <graphic>
+                              <ImageView fitHeight="58.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../resources/com/example/demo/Instagram%20Logo.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                        <Button layoutX="77.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                           <graphic>
+                              <ImageView fitHeight="59.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../resources/com/example/demo/Twitter%20Logo.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </Button>
+                     </children>
+                  </HBox>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+        <AnchorPane layoutX="-51.0" layoutY="3.0" opacity="0.33" prefHeight="114.0" prefWidth="1574.0" style="-fx-background-color: #000000;" />
+        <TextField layoutX="650.0" layoutY="30.0" prefHeight="47.0" prefWidth="700.0" promptText="Search" style="-fx-background-color: #262626; -fx-text-fill: white; -fx-border-width: 0;">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </TextField>
+        <Button layoutX="1400.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+            <graphic>
+                <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="1500.0" pickOnBounds="true" preserveRatio="true" style="-fx-image: ..\..\..\..\..\embratoret mm.jpg;" x="500.0">
+                    <image>
+                        <Image url="@../../../../resources/com/example/demo/User%20Icon.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button fx:id="watchIt" layoutX="19.0" layoutY="5.0" mnemonicParsing="false" onAction="#MainPage" prefHeight="100.0" prefWidth="272.0" style="-fx-background-color: transparent;">
+            <graphic>
+                <ImageView fitHeight="141.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../../resources/com/example/demo/Watch%20It%20Logo.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="1360.0" layoutY="33.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent;" textFill="WHITE">
+            <graphic>
+                <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" y="20.0">
+                    <image>
+                        <Image url="@../../../../resources/com/example/demo/Search%20Icon.png" />
+                    </image>
+                </ImageView>
+            </graphic></Button>
+    </children>
+</AnchorPane>

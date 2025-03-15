@@ -1,0 +1,16 @@
+[ {
+  "eachMonthRevenue" : {
+    "AUGUST" : 8.0,
+    "OCTOBER" : 60.0,
+    "MARCH" : 3.0,
+    "SEPTEMBER" : 9.0,
+    "JANUARY" : 1.0,
+    "MAY" : 5.0,
+    "JUNE" : 6.0,
+    "FEBRUARY" : 2.0,
+    "DECEMBER" : 81.0,
+    "NOVEMBER" : 11.0,
+    "APRIL" : 4.0,
+    "JULY" : 7.0
+  }
+} ]

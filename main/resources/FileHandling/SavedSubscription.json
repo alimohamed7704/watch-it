@@ -1,0 +1,13 @@
+[ {
+  "userId" : 20,
+  "startDateString" : "2024-12-15",
+  "type" : "Basic"
+}, {
+  "userId" : 54,
+  "startDateString" : "2024-12-15",
+  "type" : "Basic"
+}, {
+  "userId" : 10,
+  "startDateString" : "2024-10-14",
+  "type" : "Standard"
+} ]

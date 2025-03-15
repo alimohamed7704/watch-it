@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2500.0" prefWidth="1530.0" style="-fx-background-color: #14110d;" stylesheets="@../Styling/Values/contentContainerStyle.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Search.ContentContainerController">
+
+    <ScrollPane hbarPolicy="NEVER" layoutY="74.0" prefHeight="2000.0" prefWidth="1494.0" style="-fx-background-color: #14110d;" vbarPolicy="NEVER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="115.0">
+        <content>
+            <FlowPane fx:id="contentFlowPane" prefHeight="2500.0" prefWidth="1550.0" style="-fx-background-color: #14110d;" />
+        </content>
+    </ScrollPane>
+   <AnchorPane opacity="0.33" prefHeight="115.0" prefWidth="1530.0" style="-fx-background-color: #000000;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   <Button fx:id="watchIt" layoutX="29.0" layoutY="15.0" mnemonicParsing="false" onAction="#back" prefHeight="100.0" prefWidth="272.0" style="-fx-background-color: transparent;">
+      <graphic>
+         <ImageView fitHeight="141.0" fitWidth="267.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../Styling/images/Watch%20It%20Logo.png" />
+            </image>
+         </ImageView>
+      </graphic>
+   </Button>
+   <Button alignment="TOP_LEFT" layoutX="1380.0" layoutY="45.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Add Content" textFill="#cfcbcb">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Button>
+   <Button fx:id="backButton" layoutX="1157.0" layoutY="40.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: transparent;" text="Admin Dashboard" textFill="WHITE">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Button>
+
+</AnchorPane>

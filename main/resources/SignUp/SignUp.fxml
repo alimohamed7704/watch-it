@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignUp.SignUpController">
+    <!-- Left Sidebar -->
+    <left>
+        <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1082.0" prefWidth="300.0" spacing="20" style="-fx-background-color: #0f0a05; -fx-padding: 30;" stylesheets="@../Styling/Values/login.css">
+            <children>
+                <ImageView fitHeight="369.0" fitWidth="398.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@/Styling/images/Watchit_logo.jpg" />
+                    </image>
+                </ImageView>
+            </children>
+        </VBox>
+    </left>
+
+    <!-- Main Content -->
+    <center>
+        <StackPane style="-fx-background-color: #f4b700;" styleClass="main-content">
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="951.0" prefWidth="1317.0" spacing="20" style="-fx-padding: 30; -fx-background-radius: 40;" styleClass="login-content" stylesheets="@../Styling/Values/login.css">
+            <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="56.0" prefWidth="502.0">
+               <children>
+                  <Label prefHeight="35.0" prefWidth="124.0" style="-fx-text-fill: #bcb6b6;" text="Step 1 of 3" textFill="#bcb6b6" />
+               </children>
+            </VBox>
+                <Label style="-fx-font-size: 50;" text="Create your Account" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="17.0" />
+               </font></Label>
+
+                <!-- Username Field -->
+                <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="565.0" spacing="10">
+               <HBox prefHeight="40.0" prefWidth="553.0">
+                  <children>
+                     <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="66.0" prefWidth="339.0">
+                        <children>
+                           <Label prefHeight="33.0" prefWidth="129.0" style="-fx-font-size: 20;" text="First Name:" textFill="WHITE">
+                              <font>
+                                 <Font size="8.0" />
+                              </font>
+                           </Label>
+                           <TextField fx:id="firstName" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onSubmit" prefHeight="38.0" prefWidth="551.0" promptText="Enter your first name" style="-fx-padding: 10; -fx-border-color: transparent; -fx-background-color: black;">
+                              <font>
+                                 <Font size="18.0" />
+                              </font>
+                           </TextField>
+                        </children>
+                     </VBox>
+                  </children>
+               </HBox>
+               <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="64.0" prefWidth="558.0">
+                  <children>
+                     <Label prefHeight="31.0" prefWidth="119.0" style="-fx-font-size: 20;" text="Last Name:" textFill="WHITE">
+                        <font>
+                           <Font size="8.0" />
+                        </font>
+                     </Label>
+                     <TextField fx:id="lastName" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onSubmit" prefHeight="40.0" prefWidth="550.0" promptText="Enter your last name" style="-fx-background-color: black; -fx-padding: 10; -fx-border-color: transperent;">
+                        <font>
+                           <Font size="18.0" />
+                        </font>
+                     </TextField>
+                  </children>
+               </VBox>
+               <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="553.0">
+                  <children>
+                     <Label prefHeight="30.0" prefWidth="130.0" style="-fx-font-size: 20;" text="Username:" textFill="WHITE" />
+                  </children>
+               </VBox>
+               <VBox spacing="10">
+                  <children>
+                     <TextField fx:id="username" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="550.0" promptText="Enter your username" style="-fx-background-color: black; -fx-padding: 10; -fx-border-color: transperent;">
+                        <font>
+                           <Font size="18.0" />
+                        </font>
+                     </TextField>
+                  </children>
+               </VBox>
+               <VBox prefHeight="79.0" prefWidth="553.0">
+                  <children>
+                     <Label prefHeight="35.0" prefWidth="102.0" style="-fx-font-size: 20;" text="Email:" textFill="WHITE" />
+                     <TextField fx:id="email" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#onSubmit" prefHeight="40.0" prefWidth="550.0" promptText="Enter your email" style="-fx-background-color: black; -fx-padding: 10; -fx-border-color: transperent;">
+                        <font>
+                           <Font size="18.0" />
+                        </font>
+                     </TextField>
+                  </children>
+               </VBox>
+               <VBox spacing="10">
+                  <children>
+                     <Label style="-fx-text-fill: white; -fx-font-size: 20;" text="Password" textFill="WHITE" />
+                     <PasswordField fx:id="password" maxHeight="-Infinity" maxWidth="-Infinity" prefWidth="552.0" promptText="Enter your password" style="-fx-background-color: black; -fx-padding: 10; -fx-border-color: transperent;">
+                        <font>
+                           <Font size="18.0" />
+                        </font></PasswordField>
+                  </children>
+               </VBox>
+                </VBox>
+
+                <!-- Buttons -->
+                <VBox alignment="CENTER" prefHeight="125.0" prefWidth="1171.0" spacing="10">
+               <Label style="-fx-font-size: 12;" text="By clicking “Next”, you confirm that you have read and agreed to the Terms &amp; Conditions And Privacy Policy" textFill="WHITE" />
+                    <Button fx:id="signUpButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#OnButtonClick" prefHeight="57.0" prefWidth="354.0" style="-fx-background-color: #dba423; -fx-text-fill: black; -fx-font-size: 22; -fx-font-weight: bold; -fx-background-radius: 20; -fx-padding: 10;" text="Next">
+                  <font>
+                     <Font size="13.0" />
+                  </font></Button>
+               <HBox alignment="CENTER">
+                  <children>
+                     <Label style="-fx-font-size: 16;" text="Already have an account?" textFill="WHITE" />
+                          <Button maxHeight="-Infinity" maxWidth="-Infinity" onAction="#onSignIn" prefHeight="35.0" prefWidth="75.0" style="-fx-background-color: transparent; -fx-text-fill: #db9514; -fx-font-size: 16; -fx-font-weight: Bold;" text="Sign in" textFill="WHITE">
+                        <font>
+                           <Font name="System Bold" size="12.0" />
+                        </font>
+                     </Button>
+                  </children>
+               </HBox>
+                </VBox>
+            </VBox>
+         <stylesheets>
+            <URL value="@../Styling/Values/style.css" />
+            <URL value="@../Styling/Values/login.css" />
+         </stylesheets>
+        </StackPane>
+    </center>
+</BorderPane>

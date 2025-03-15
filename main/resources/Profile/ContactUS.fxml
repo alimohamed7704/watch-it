@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Profiles.ProfileControllers.ContactUScontroller">
+    <left>
+        <VBox prefHeight="750.0" prefWidth="303.0" spacing="20.0" styleClass="primary-color" stylesheets="@../Styling/Values/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="215.0" prefWidth="307.0">
+                    <children>
+                        <HBox>
+                            <VBox.margin>
+                                <Insets left="20.0" top="20.0" />
+                            </VBox.margin>
+                            <children>
+                                <ImageView fitHeight="65.0" fitWidth="66.0" onMouseClicked="#BackButton" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/left.png" />
+                                    </image>
+                                </ImageView>
+                                <Label onMouseClicked="#BackButton" prefHeight="63.0" prefWidth="127.0" text="Home" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="33.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="16.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children></VBox>
+                <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0" spacing="15.0">
+                    <VBox.margin>
+                        <Insets top="50.0" />
+                    </VBox.margin>
+                    <children>
+                        <ImageView fitHeight="307.0" fitWidth="326.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageView">
+                            <image>
+                                <Image url="@../Styling/images/Watchit_logo.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+                <VBox prefHeight="306.0" prefWidth="300.0" spacing="15.0">
+                    <children>
+                        <HBox alignment="CENTER" onMouseClicked="#ProfileButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/user.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="45.0" prefWidth="172.0" text="Profile" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" onMouseClicked="#SubscriptionButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/subcriptions.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="36.0" prefWidth="180.0" text="Subscription" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" onMouseClicked="#PrivacyPolicyButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/padlock.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="36.0" prefWidth="179.0" text="Privacy Policy" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="12.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                  <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected-border" stylesheets="@../Styling/Values/style.css">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/chat.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="36.0" prefWidth="179.0" text="Contact Us" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                           <padding>
+                              <Insets left="12.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="50.0" style="-fx-background-color: #0f0a05;" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="85.0" prefWidth="950.0" text="Team #80" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="50.0" />
+                    </font>
+                </Label>
+                <HBox style="-fx-background-radius: 40;">
+                    <children>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="818.0" prefWidth="864.0" spacing="50.0" style="-fx-background-color: #211c19;" stylesheets="@../Styling/Values/style.css">
+                            <styleClass>
+                                <String fx:value="button-rounded" />
+                                <String fx:value="container-rounded" />
+                            </styleClass>
+                     <children>
+                        <HBox prefHeight="81.0" prefWidth="844.0">
+                           <children>
+                              <HBox prefHeight="80.0" prefWidth="110.0" />
+                              <Label prefHeight="73.0" prefWidth="341.0" text="   Youssab Osama    " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="73.0" prefWidth="197.0" text="2023170709" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <HBox prefHeight="55.0" prefWidth="110.0" />
+                              <Label prefHeight="51.0" prefWidth="335.0" text="   Peter Refaat    " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="51.0" prefWidth="198.0" text="2023170144" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <HBox prefHeight="58.0" prefWidth="110.0" />
+                              <Label prefHeight="57.0" prefWidth="335.0" text="   Bavly Ramy   " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="49.0" prefWidth="197.0" text="2023170129" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <HBox prefHeight="61.0" prefWidth="110.0" />
+                              <Label prefHeight="71.0" prefWidth="339.0" text="  Mohamed Hesham   " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="65.0" prefWidth="196.0" text="2023170542" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <HBox prefHeight="65.0" prefWidth="110.0" />
+                              <Label prefHeight="78.0" prefWidth="334.0" text="  Ali Mohamed " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="79.0" prefWidth="195.0" text="2023170371" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <HBox prefHeight="68.0" prefWidth="110.0" />
+                              <Label prefHeight="78.0" prefWidth="337.0" text=" Youssef abd El Hady " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="78.0" prefWidth="222.0" text="2023170733" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <HBox prefHeight="79.0" prefWidth="99.0" />
+                              <Label prefHeight="78.0" prefWidth="385.0" text=" Noor Al Deen Ramadan " textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="79.0" prefWidth="204.0" text="2023170678" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="33.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                        </VBox>
+                    </children>
+                </HBox>
+            <HBox />
+            </children>
+            <padding>
+                <Insets bottom="30.0" left="50.0" right="50.0" top="30.0" />
+            </padding>
+        </VBox>
+    </center>
+</BorderPane>

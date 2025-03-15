@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Profiles.ProfileControllers.PrivacyPolicyController">
+    <left>
+        <VBox prefHeight="750.0" prefWidth="303.0" spacing="20.0" styleClass="primary-color" stylesheets="@../Styling/Values/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="215.0" prefWidth="307.0">
+                    <children>
+                        <HBox>
+                            <VBox.margin>
+                                <Insets left="20.0" top="20.0" />
+                            </VBox.margin>
+                            <children>
+                                <ImageView fitHeight="65.0" fitWidth="66.0" onMouseClicked="#BackButton" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/left.png" />
+                                    </image>
+                                </ImageView>
+                                <Label onMouseClicked="#BackButton" prefHeight="63.0" prefWidth="127.0" text="Home" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="33.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="16.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children></VBox>
+                <VBox alignment="CENTER" prefHeight="220.0" prefWidth="300.0" spacing="15.0">
+                    <VBox.margin>
+                        <Insets top="50.0" />
+                    </VBox.margin>
+                    <children>
+                        <ImageView fitHeight="307.0" fitWidth="326.0" layoutX="10.0" pickOnBounds="true" preserveRatio="true" styleClass="ImageView">
+                            <image>
+                                <Image url="@../Styling/images/Watchit_logo.jpg" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </VBox>
+                <VBox prefHeight="306.0" prefWidth="300.0" spacing="15.0">
+                    <children>
+                        <HBox alignment="CENTER" onMouseClicked="#ProfileButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/user.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="45.0" prefWidth="172.0" text="Profile" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" onMouseClicked="#SubscriptionButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/subcriptions.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="36.0" prefWidth="180.0" text="Subscription" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="15.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="45.0" prefWidth="200.0" styleClass="selected-border" stylesheets="@../Styling/Values/style.css">
+                            <children>
+                                <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Styling/images/padlock.png" />
+                                    </image>
+                                </ImageView>
+                                <Label prefHeight="36.0" prefWidth="179.0" text="Privacy Policy" textFill="WHITE">
+                                    <font>
+                                        <Font name="System Bold" size="25.0" />
+                                    </font>
+                                    <padding>
+                                        <Insets left="12.0" />
+                                    </padding>
+                                </Label>
+                            </children>
+                        </HBox>
+                  <HBox alignment="CENTER" onMouseClicked="#ContactUsButton" prefHeight="45.0" prefWidth="200.0" styleClass="selected" stylesheets="@../Styling/Values/style.css">
+                     <children>
+                        <ImageView fitHeight="35.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Styling/images/chat.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="36.0" prefWidth="180.0" text="Contact Us" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </left>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="50.0" style="-fx-background-color: #0f0a05;" stylesheets="@../Styling/Values/style.css" BorderPane.alignment="CENTER">
+            <children>
+                <Label prefHeight="85.0" prefWidth="1489.0" text="Privacy and Policy" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="50.0" />
+                    </font>
+                </Label>
+                <HBox>
+                    <children>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="165.0" prefWidth="1252.0" spacing="30.0" style="-fx-background-color: #211c19;" stylesheets="@../Styling/Values/style.css">
+                            <styleClass>
+                                <String fx:value="button-rounded" />
+                                <String fx:value="container-rounded" />
+                            </styleClass>
+                     <children>
+                        <Label prefHeight="145.0" prefWidth="1121.0" text="WATCH IT realizes that you care how information about you is used and shared, and we appreciate your confidence that we will do so carefully and cautiously. This notice describes our privacy policy regarding the information collection, use, and disclosure of personal data when you use WATCH IT (the Service). In this notice, we will be using “us”, “our”, “we” and “the Service” interchangeably to refer to the WATCH IT service. By visiting WATCH IT, you give us your consent to the practices described in this Privacy Notice." textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                        </VBox>
+                    </children>
+                </HBox>
+            <Label prefHeight="14.0" prefWidth="1513.0" text="Information provided by the User:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <HBox>
+               <children>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="148.0" prefWidth="1256.0" style="-fx-background-color: #211c19; -fx-background-radius: 16;">
+                     <children>
+                        <Label prefHeight="148.0" prefWidth="1233.0" text="We collect and store any information you enter while using our service or give us in any other way. We use the information that you provide for such purposes as identifying you, responding to your requests, and communicating with you. The information you provide to us may include but not limited to: Personal Data such as: ◽First name and last name ◽Email address ◽Phone number ◽Payment methods and details" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            </children>
+            <padding>
+                <Insets bottom="30.0" left="50.0" right="50.0" top="30.0" />
+            </padding>
+        </VBox>
+    </center>
+</BorderPane>

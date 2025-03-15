@@ -1,0 +1,31 @@
+[ {
+  "email" : "john.dooor@example.com",
+  "username" : "johndoe",
+  "balance" : 4894.0,
+  "id" : 15,
+  "password" : "fksod",
+  "firstName" : "johndoe",
+  "lastName" : "Ljohndoe",
+  "watchLaterContentIds" : [ 1, 2, 3 ],
+  "numberOfWatchedMovies" : 10,
+  "type" : "User"
+}, {
+  "email" : "Elyouss@example.com",
+  "username" : "elboss",
+  "balance" : 4894.0,
+  "id" : 23,
+  "password" : "fksod",
+  "firstName" : "johndoe",
+  "lastName" : "Ljohndoe",
+  "watchLaterContentIds" : [ 1, 2, 3 ],
+  "numberOfWatchedMovies" : 20,
+  "type" : "User"
+}, {
+  "email" : "john.dooor@example.com",
+  "username" : "johndoe",
+  "id" : 15,
+  "password" : "fksod",
+  "firstName" : "johndoe",
+  "lastName" : "Ljohndoe",
+  "type" : "Admin"
+} ]

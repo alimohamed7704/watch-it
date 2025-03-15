@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="0.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1530.0" prefWidth="1530.0" style="-fx-background-color: black;">
+         <children>
+            <ScrollPane hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" vbarPolicy="ALWAYS" AnchorPane.bottomAnchor="0.7999999999999545" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <content>
+                  <AnchorPane prefHeight="1457.0" prefWidth="1530.0" style="-fx-background-color: #14110d;">
+                     <children>
+                        <TilePane layoutX="36.0" layoutY="238.0" prefHeight="196.0" prefWidth="1448.0">
+                           <children>
+                              <VBox prefHeight="200.0" prefWidth="250.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="190.0" prefWidth="252.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true">
+                                             <image>
+                                                <Image url="@../../../../../../../../../Downloads/6%20shhoor.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Label prefHeight="40.0" prefWidth="266.0" text="Label" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="250.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="190.0" prefWidth="252.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="150.0" fitWidth="249.0" pickOnBounds="true">
+                                             <image>
+                                                <Image url="@../../../../../../../../../Downloads/embratoret%20mem.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic>
+                                    </Button>
+                                    <Label prefHeight="40.0" prefWidth="266.0" text="Label" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="250.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="190.0" prefWidth="252.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="150.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true" />
+                                       </graphic>
+                                    </Button>
+                                    <Label prefHeight="40.0" prefWidth="266.0" text="Label" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="250.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="190.0" prefWidth="252.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="150.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true" />
+                                       </graphic>
+                                    </Button>
+                                    <Label prefHeight="40.0" prefWidth="266.0" text="Label" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="807.0" layoutY="10.0" prefHeight="200.0" prefWidth="250.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="190.0" prefWidth="252.0" style="-fx-background-color: transparent;">
+                                       <graphic>
+                                          <ImageView fitHeight="150.0" fitWidth="249.0" pickOnBounds="true" preserveRatio="true" />
+                                       </graphic>
+                                    </Button>
+                                    <Label prefHeight="40.0" prefWidth="266.0" text="Label" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </TilePane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-41.0" layoutY="13.0" opacity="0.43" prefHeight="114.0" prefWidth="1523.0" style="-fx-background-color: #000000;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-902.0" />
+      <Button layoutX="10.0" layoutY="15.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="272.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../../Downloads/logo.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="1160.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+         <graphic>
+            <Label text="Admin Dashboard" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </graphic>
+      </Button>
+      <Button layoutX="1380.0" layoutY="40.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Add Content" textFill="#cfcbcb">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
