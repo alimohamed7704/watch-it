@@ -1,0 +1,161 @@
+/* Primary and Secondary Colors */
+.primary-color {
+    -fx-background-color: #0f0a05;
+}
+
+.secondary-color {
+    -fx-background-color: #dca524;
+}
+
+.secondary-color-backR {
+    -fx-background-color: #00002C;
+    -fx-background-radius: 50; /* Rounded corners */
+    -fx-border-radius: 15;     /* Optional: for borders */
+    -fx-padding: 10;
+}
+
+/* Button Styles */
+.button {
+    -fx-background-color: #242551;
+    -fx-background-radius: 30;
+}
+
+/* Input Field Styles */
+.text-input {
+    -fx-background-color: rgba(8, 8, 8, 0.8);
+    -fx-border-color: #242551; /* Ensure this is a valid Paint object */
+    -fx-border-width: 0 0 1 0; /* Bottom border */
+    -fx-text-fill: white;      /* Text color */
+}
+
+.password-field {
+    -fx-background-color: rgba(8, 8, 8, 0.8);
+    -fx-border-color: #242551;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-fill: white;
+}
+
+/* Selected Border Styles */
+.selected-border {
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0 3 0 0;
+}
+
+.selected:hover {
+    -fx-background-color: #3C3058;
+}
+
+/* Rounded Container Styles */
+.container-rounded {
+    -fx-background-color: #211c19;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-padding: 10;
+}
+
+/* General Styles */
+body {
+    -fx-font-family: 'Arial';
+}
+
+/* Sidebar Styles */
+.sidebar {
+    -fx-background-color: #2b2b4b;
+    -fx-padding: 20;
+}
+
+.ImageView {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+}
+
+/* Sidebar Label Styles */
+.sidebar Label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+/* Sidebar Button Styles */
+.sidebar Button {
+    -fx-background-color: #5050a1;
+    -fx-text-fill: white;
+    -fx-background-radius: 5px;
+    -fx-padding: 10;
+}
+
+/* Menu Items */
+.menu-items {
+    -fx-spacing: 10;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 20 0 0 0;
+}
+
+.menu-items Label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* Main Content Styles */
+.main-content {
+    -fx-background-color: #1a1a33;
+    -fx-padding: 20;
+}
+
+.main-content Label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Section Styles */
+.section {
+    -fx-background-color: #2e2e5e;
+    -fx-padding: 20;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-spacing: 15;
+}
+
+.section Label {
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+
+/* Grid Pane */
+.grid-pane {
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+}
+
+.grid-pane Label {
+    -fx-text-fill: white;
+}
+
+/* Save Button */
+.save-button {
+    -fx-background-color: #211c19;
+    -fx-text-fill: white;
+    -fx-background-radius: 6px;
+    -fx-padding: 10;
+}
+
+
+/*.combo-box {*/
+/*    -fx-font-size: 14px; !* Font size *!*/
+/*    -fx-text-fill: white; !* Text color *!*/
+/*    -fx-font-family: "Arial"; !* Font family *!*/
+/*}*/
+
+/*.scroll-pane .scroll-bar:vertical {*/
+/*    -fx-background-color: black; !* Background color *!*/
+/*}*/
+
+.combo-box .combo-box-list-cell {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-family: "Verdana";
+}
+
+/*.button:hover {*/
+/*    -fx-cursor: hand; !* Changes the cursor to a hand *!*/
+/*}*/

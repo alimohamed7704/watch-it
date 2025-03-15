@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    -fx-font-family: 'Arial';
+}
+
+/* Sidebar Styles */
+.sidebar {
+    -fx-background-color: #0f0a05;
+
+}
+.first-name{
+-fx-font-size: 28px;
+}
+
+.sidebar Label {
+    -fx-text-fill: white;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+/* Main Content Styles */
+.main-content {
+    -fx-background-color:#f4b700;
+        -fx-border-radius: 5px;
+}
+
+.login-content {
+-fx-background-color:#0f0a05;
+
+}
+
+.main-content Label.title {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+/* Input Field Styles */
+.input-field {
+    -fx-background-color: white;
+    -fx-text-inner-color: black;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.input-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* Button Styles */
+.primary-button {
+    -fx-background-color: #6A5ACD;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+
+}
+
+.secondary-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+/* Link Styles */
+.forgot-password {
+    -fx-text-fill: #6A5ACD;
+    -fx-font-size: 12px;
+    -fx-underline: true;
+}
+

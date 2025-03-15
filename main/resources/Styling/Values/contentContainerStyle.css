@@ -1,0 +1,46 @@
+.root {
+    -fx-background-color: #14110d; /* Dark background for the root */
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 18px; /* Increased from 14px to 18px */
+    -fx-text-fill: white;
+}
+.scroll-pane {
+    -fx-background-color: #14110d; /* Dark background */
+    -fx-padding: 10px; /* Padding around the content */
+}
+
+/* Optional: Style the scrollbars */
+.scroll-pane > .viewport {
+    -fx-background-color: transparent; /* No background for viewport */
+}
+
+.scroll-pane > .scroll-bar {
+    -fx-background-color: #444; /* Dark scroll bar */
+    -fx-border-color: #666; /* Border for the scroll bar */
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}
+
+.scroll-pane > .scroll-bar > .thumb {
+    -fx-background-color: #888; /* Thumb color */
+    -fx-background-radius: 10px;
+}
+.label{
+    -fx-text-fill: white;
+
+}
+.button {
+    -fx-background-color: #333;
+    -fx-text-fill: #888;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #555;
+}
+.anchor-pane{
+    -fx-background-color: #14110d; /* Dark background */
+}

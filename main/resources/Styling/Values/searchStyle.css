@@ -1,0 +1,113 @@
+/* AnchorPane Styling */
+#anchorPane {
+    -fx-background-color: #14110d; /* Dark background */
+    -fx-padding: 20px;
+}
+
+/* General Styling */
+.root {
+    -fx-background-color: #14110d; /* Dark background for the root */
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 18px; /* Increased from 14px to 18px */
+    -fx-text-fill: white;
+}
+
+/* TextField Styling */
+.text-field {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #888;
+    -fx-border-color: #444;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 16px;
+}
+
+.text-field:focused {
+    -fx-border-color: #66ccff; /* Light blue border when focused */
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #333;
+    -fx-text-fill: #888;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #555;
+}
+
+/* ListView Styling */
+.list-view {
+    -fx-background-color: #333;
+    -fx-text-fill: white;
+    -fx-border-color: #444;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-font-size: 16px;
+}
+
+.list-cell {
+    -fx-background-color: #333;
+    -fx-font-size: 16px;
+}
+
+.check-box {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+/* FlowPane Styling */
+.flow-pane {
+    -fx-background-color: #333;
+    -fx-border-color: #444;
+    -fx-border-radius: 5px;
+}
+
+.scroll-pane {
+    -fx-background-color: #14110d;
+}
+
+/* Search Bar Styling */
+#searchBar {
+    -fx-background-color: #14110d;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #888;
+
+    -fx-border-color: transparent transparent #444 transparent;
+    -fx-border-width: 0 0 1px 0;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    -fx-border-radius: 0px;
+
+    -fx-font-size: 18px;
+}
+scroll-pane {
+    -fx-background-color: #14110d; /* Dark background */
+    -fx-padding: 10px; /* Padding around the content */
+}
+
+/* Optional: Style the scrollbars */
+.scroll-pane > .viewport {
+    -fx-background-color: transparent; /* No background for viewport */
+}
+
+.scroll-pane > .scroll-bar {
+    -fx-background-color: #444; /* Dark scroll bar */
+    -fx-border-color: #666; /* Border for the scroll bar */
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}
+
+.scroll-pane > .scroll-bar > .thumb {
+    -fx-background-color: #888; /* Thumb color */
+    -fx-background-radius: 10px;
+}
+#searchButton{
+-fx-background-color: #f4b700;
+}
