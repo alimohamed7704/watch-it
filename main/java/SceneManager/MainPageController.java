@@ -165,14 +165,10 @@ public class MainPageController  {
     private void scrollRightFor_You() {scrollRight(For_YouScrollBar);}
 
     @FXML
-    private void scrollRightHistoryScrollBar() {
-        scrollLeft(HistoryScrollBar);
-    }
-
+    private void scrollRightHistoryScrollBar() {scrollRight(HistoryScrollBar);}
+    
     @FXML
-    private void scrollLeftHistoryScrollBar() {
-        scrollRight(HistoryScrollBar);
-    }
+    private void scrollLeftHistoryScrollBar() {scrollLeft(HistoryScrollBar);}
 
     @FXML
     private void scrollLeftRecently_AddedScrollBar() {
