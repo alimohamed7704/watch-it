@@ -26,14 +26,14 @@
   "budget" : 15000000,
   "revenue" : 23000000,
   "rating" : "NaN",
-  "totalPeopleRated" : 0,
+  "totalPeopleRated" : 1,
   "duration" : 145.0,
   "posterPath" : "src/main/resources/Styling/images/content image/movie/AsefAlaElEzaag.png",
   "description" : "A university student lost his father. He decided to write him a letter after his death. While reading this letter, he remembers his relation with his father.",
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/AsefAlaElEzaag_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 2, 3 ],
+  "crewIDs" : [ 48 ],
   "title" : "Bad Boys:Ride or Die",
   "language" : "English",
   "country" : "United States",
@@ -42,8 +42,8 @@
   "id" : 3,
   "budget" : 100000000,
   "revenue" : 404000000,
-  "rating" : 3.0,
-  "totalPeopleRated" : 0,
+  "rating" : 5.0,
+  "totalPeopleRated" : 2,
   "duration" : 155.0,
   "posterPath" : "src/main/resources/Styling/images/content image/movie/BadBoys.png",
   "description" : "When their late police captain gets linked to drug cartels, wisecracking Miami cops Mike Lowrey and Marcus Burnett embark on a dangerous mission to clear his name.",
@@ -67,7 +67,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/Bahbk_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 9 ],
+  "crewIDs" : [ 47 ],
   "title" : "Bara Elmanhag",
   "language" : "Arabic",
   "country" : "Egypt",
@@ -93,8 +93,8 @@
   "id" : 6,
   "budget" : 430000000,
   "revenue" : 100000000,
-  "rating" : 5.0,
-  "totalPeopleRated" : 0,
+  "rating" : 4.666666666666667,
+  "totalPeopleRated" : 3,
   "duration" : 245.0,
   "posterPath" : "src/main/resources/Styling/images/content image/movie/Django.png",
   "description" : "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
@@ -118,7 +118,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/Elbadla_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 16 ],
+  "crewIDs" : [ 16, 47 ],
   "title" : "Fadl We Neama",
   "language" : "Arabic",
   "country" : "Egypt",
@@ -161,15 +161,15 @@
   "id" : 10,
   "budget" : 160000000,
   "revenue" : 840000000,
-  "rating" : 4.0,
-  "totalPeopleRated" : 7,
+  "rating" : 4.125,
+  "totalPeopleRated" : 8,
   "duration" : 220.0,
   "posterPath" : "src/main/resources/Styling/images/content image/movie/Inception.png",
   "description" : "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/Inception_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 49 ],
   "title" : "Interstellar",
   "language" : "English",
   "country" : "United States",
@@ -179,14 +179,14 @@
   "budget" : 160000000,
   "revenue" : 730000000,
   "rating" : 5.0,
-  "totalPeopleRated" : 78,
+  "totalPeopleRated" : 79,
   "duration" : 250.0,
   "posterPath" : "src/main/resources/Styling/images/content image/movie/Interstellar.png",
   "description" : "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/Interstellar_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 51 ],
   "title" : "Joker",
   "language" : "English",
   "country" : "United States",
@@ -237,7 +237,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/KedaReda_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 50, 57 ],
   "title" : "Lift",
   "language" : "English",
   "country" : "United States",
@@ -246,8 +246,8 @@
   "id" : 15,
   "budget" : 100000000,
   "revenue" : 150000000,
-  "rating" : 2.0,
-  "totalPeopleRated" : 7,
+  "rating" : 2.375,
+  "totalPeopleRated" : 8,
   "duration" : 150.0,
   "posterPath" : "src/main/resources/Styling/images/content image/movie/Lift.png",
   "description" : "Follows a master thief and his Interpol Agent ex-girlfriend who team up to steal $500 million in gold bullion being transported on an A380 passenger flight.",
@@ -271,7 +271,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/Titanic_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 27 ],
+  "crewIDs" : [ 2, 27 ],
   "title" : "X-Large",
   "language" : "Arabic",
   "country" : "Egypt",
@@ -288,7 +288,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/movie/Xlarge_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 53 ],
   "title" : "Sherlock",
   "language" : "English",
   "country" : "United Kingdom",
@@ -298,14 +298,14 @@
   "budget" : 30000000,
   "revenue" : 100000000,
   "rating" : 5.0,
-  "totalPeopleRated" : 8,
+  "totalPeopleRated" : 9,
   "duration" : 90.0,
   "posterPath" : "src/main/resources/Styling/images/content image/series/Sherlock.png",
   "description" : "The quirky spin on Conan Doyle's iconic sleuth pitches him as a \"high-functioning sociopath\" in modern-day London. Assisting him in his investigations: Afghanistan War vet John Watson, who's introduced to Holmes by a mutual acquaintance.",
   "logoPath" : "src/main/resources/Styling/images/content logo/series/Sherlock_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 55 ],
   "title" : "Berlin",
   "language" : "Spanish",
   "country" : "Spain",
@@ -322,7 +322,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/series/Berlin_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 56, 57, 55 ],
   "title" : "La Casa De Papel",
   "language" : "Spanish",
   "country" : "Spain",
@@ -331,8 +331,8 @@
   "id" : 20,
   "budget" : 300000000,
   "revenue" : 5000000000,
-  "rating" : 5.0,
-  "totalPeopleRated" : 1,
+  "rating" : 4.0,
+  "totalPeopleRated" : 3,
   "duration" : 80.0,
   "posterPath" : "src/main/resources/Styling/images/content image/series/LaCasaDePapel.png",
   "description" : "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
@@ -373,7 +373,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/series/Rivo_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 54 ],
   "title" : "Breaking Bad",
   "language" : "English",
   "country" : "United States",
@@ -390,7 +390,7 @@
   "logoPath" : "src/main/resources/Styling/images/content logo/series/BreakingBad_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ 52 ],
   "title" : "Stranger Things",
   "language" : "English",
   "country" : "United States",
@@ -416,8 +416,8 @@
   "id" : 25,
   "budget" : 3500000,
   "revenue" : 11000000,
-  "rating" : 4.0,
-  "totalPeopleRated" : 7,
+  "rating" : 4.125,
+  "totalPeopleRated" : 8,
   "duration" : 43.0,
   "posterPath" : "src/main/resources/Styling/images/content image/series/Dawaay Al Safar.png",
   "description" : "We follow the unlikely friendship between Ali, who suffers from depression after the death of his father, and his neighbor Ibrahim, who creates a world of people, places, and even a false love story, discovering the impact they have on each other's lives.",
@@ -433,15 +433,15 @@
   "id" : 26,
   "budget" : 1500000,
   "revenue" : 5500000,
-  "rating" : 2.0,
-  "totalPeopleRated" : 4,
+  "rating" : 2.6,
+  "totalPeopleRated" : 5,
   "duration" : 43.0,
   "posterPath" : "src/main/resources/Styling/images/content image/series/6Shohour.png",
   "description" : "Murad and Latifa compete for the same job during a 6-month trial, but their plan to launch a startup may be their biggest challenge yet.",
   "logoPath" : "src/main/resources/Styling/images/content logo/series/6Shohour_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ ],
   "title" : "Hala Khasa",
   "language" : "Arabic",
   "country" : "Egypt",
@@ -484,15 +484,15 @@
   "id" : 29,
   "budget" : 3500000,
   "revenue" : 11000000,
-  "rating" : 3.0,
-  "totalPeopleRated" : 5,
+  "rating" : 3.75,
+  "totalPeopleRated" : 8,
   "duration" : 47.0,
   "posterPath" : "src/main/resources/Styling/images/content image/series/PrivateNumber.png",
   "description" : "A bank employee finds herself caught up in a serious murder and fraud after being implicated by artificial intelligence techniques. Will it be able to face the unknown fate?",
   "logoPath" : "src/main/resources/Styling/images/content logo/series/PrivateNumber_logo.png",
   "type" : "Movie"
 }, {
-  "crewIDs" : [ 1, 2 ],
+  "crewIDs" : [ ],
   "title" : "Saatuh Wa Tarikhuh",
   "language" : "Arabic",
   "country" : "Egypt",
