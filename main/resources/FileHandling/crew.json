@@ -448,4 +448,104 @@
   "socialMedia" : [ "https://www.facebook.com/MagedElKedwany", "https://www.instagram.com/MagedElKedwany", "https://www.twitter.com/MagedElKedwany" ],
   "imagePath" : "src/main/resources/Styling/images/Crew/MagedElkidwaney.png",
   "type" : "Actor"
+}, {
+  "firstName" : "Will",
+  "lastName" : "Smith",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1968-09-25",
+  "nationality" : "American",
+  "crewID" : 48,
+  "socialMedia" : [ "https://www.facebook.com/Will Smith", "https://www.instagram.com/Will Smith", "https://www.twitter.com/Will Smith" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/WillSmith.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Matthew",
+  "lastName" : "McConaughey",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1969-11-04",
+  "nationality" : "American",
+  "crewID" : 49,
+  "socialMedia" : [ "https://www.facebook.com/MatthewMcConaughey", "https://www.instagram.com/MatthewMcConaughey", "https://www.twitter.com/MatthewMcConaughey" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/MatthewMcConaughey.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Kevin",
+  "lastName" : "Hart",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1979-07-06",
+  "nationality" : "American",
+  "crewID" : 50,
+  "socialMedia" : [ "https://www.facebook.com/KevinHart", "https://www.instagram.com/KevinHart", "https://www.twitter.com/KevinHart" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/KevinHart.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Joaquin",
+  "lastName" : "Phoenix",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1974-10-28",
+  "nationality" : "American",
+  "crewID" : 51,
+  "socialMedia" : [ "https://www.facebook.com/JoaquinPhoenix", "https://www.instagram.com/JoaquinPhoenix", "https://www.twitter.com/JoaquinPhoenix" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/JoaquinPhoenix.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Millie",
+  "lastName" : "Bobby Brown",
+  "gender" : "Female",
+  "stringDateOfBirth" : "2004-02-19",
+  "nationality" : "British",
+  "crewID" : 52,
+  "socialMedia" : [ "https://www.facebook.com/MillieBobbyBrown", "https://www.instagram.com/MillieBobbyBrown", "https://www.twitter.com/MillieBobbyBrown" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/MillieBobbyBrown.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Benedict",
+  "lastName" : "Cumberbatch",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1976-07-19",
+  "nationality" : "British",
+  "crewID" : 53,
+  "socialMedia" : [ "https://www.facebook.com/BenedictCumberbatch", "https://www.instagram.com/BenedictCumberbatch", "https://www.twitter.com/BenedictCumberbatch" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/BenedictCumberbatch.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Bryan",
+  "lastName" : "Cranston",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1956-05-07",
+  "nationality" : "American",
+  "crewID" : 54,
+  "socialMedia" : [ "https://www.facebook.com/BryanCranston", "https://www.instagram.com/BryanCranston", "https://www.twitter.com/BryanCranston" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/BryanCranston.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Pedro",
+  "lastName" : "Alonso",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1971-06-21",
+  "nationality" : "Spanish",
+  "crewID" : 55,
+  "socialMedia" : [ "https://www.facebook.com/PedroAlonso", "https://www.instagram.com/PedroAlonso", "https://www.twitter.com/PedroAlonso" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/PedroAlonso.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Álvaro",
+  "lastName" : "Morte",
+  "gender" : "Male",
+  "stringDateOfBirth" : "1975-02-23",
+  "nationality" : "Spanish",
+  "crewID" : 56,
+  "socialMedia" : [ "https://www.facebook.com/ÁlvaroMorte", "https://www.instagram.com/ÁlvaroMorte", "https://www.twitter.com/ÁlvaroMorte" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/ÁlvaroMorte.png",
+  "type" : "Actor"
+}, {
+  "firstName" : "Úrsula",
+  "lastName" : "Corberó",
+  "gender" : "Female",
+  "stringDateOfBirth" : "1975-02-23",
+  "nationality" : "Spanish",
+  "crewID" : 57,
+  "socialMedia" : [ "https://www.facebook.com/ÚrsulaCorberó", "https://www.instagram.com/ÚrsulaCorberó", "https://www.twitter.com/ÚrsulaCorberó" ],
+  "imagePath" : "src/main/resources/Styling/images/Crew/ÚrsulaCorberó.png",
+  "type" : "Actor"
 } ]
