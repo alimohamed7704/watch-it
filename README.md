@@ -16,9 +16,8 @@ This project is a **Java-based clone of the real streaming website "Watch It"**.
 
 ### Prerequisites
 
-- **Java JDK** (v8 or higher)
+- **Java JDK**
 - **JavaFX library**
-- Any Java IDE or **Maven** for dependency management
 
 ### Steps
 
