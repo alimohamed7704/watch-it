@@ -54,7 +54,31 @@ This project is a **Java-based clone of the real streaming website "Watch It"**.
 
 ## 🖼️ Screenshots
 
+- **User Login Page**
+  
+   ![user_login](Images/user_login.jpg)
 
+- **Admin Login Page**
+  
+   ![Example 1](Images/admin_login.jpg)
+
+- **Home Page**
+  
+   ![Example 1](Images/home_page.jpg)
+
+   ![Example 2](Images/home_page_continued.jpg)
+
+- **Movie Screen**
+  
+   ![Example 1](Images/show_screen.jpg)
+
+- **Admin Dashboard**
+  
+   ![Example 1](Images/admin_dashboard.jpg)
+
+- **Search**
+  
+    ![Example 1](Images/search.jpg)
 
 
 
